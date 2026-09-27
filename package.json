@@ -18,6 +18,8 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
+    "setup:local": "bash scripts/setup-local.sh",
+    "dev:local": "turbo dev --continue --filter=!@repo/cms",
     "check": "ultracite check",
     "fix": "ultracite fix",
     "test": "turbo test",
