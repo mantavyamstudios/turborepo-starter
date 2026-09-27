@@ -1,4 +1,4 @@
-// TODO(setup): Set UPSTASH_REDIS_REST_URL/TOKEN (missing from .env.example). SETUP.md → "Upstash".
+// TODO(setup): Set UPSTASH_REDIS_REST_URL/TOKEN (missing from .env.example). README.md → "Upstash".
 import { createEnv } from "@t3-oss/env-nextjs";
 import { z } from "zod";
 

@@ -1,4 +1,4 @@
-// TODO(setup): Set ARCJET_KEY (ajkey_...) to enable bot protection. SETUP.md → "Arcjet".
+// TODO(setup): Set ARCJET_KEY (ajkey_...) to enable bot protection. README.md → "Arcjet".
 import { createEnv } from "@t3-oss/env-nextjs";
 import { z } from "zod";
 

@@ -13,7 +13,7 @@ neonConfig.webSocketConstructor = ws;
 
 // Local Postgres has no Neon websocket proxy, so localhost URLs use the pg
 // adapter. Any other URL (Neon) goes through PrismaNeon.
-// TODO(setup): Use a Neon URL in staging/production. SETUP.md → "Database".
+// TODO(setup): Use a Neon URL in staging/production. README.md → "Database".
 const connectionString = keys().DATABASE_URL;
 const adapter = /@(localhost|127\.0\.0\.1)[:/]/.test(connectionString)
   ? new PrismaPg({ connectionString })

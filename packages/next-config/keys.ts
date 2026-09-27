@@ -1,4 +1,4 @@
-// TODO(setup): Set NEXT_PUBLIC_*_URL to production domains when deploying. SETUP.md → "URLs".
+// TODO(setup): Set NEXT_PUBLIC_*_URL to production domains when deploying. README.md → "URLs".
 import { createEnv } from "@t3-oss/env-nextjs";
 import { z } from "zod";
 

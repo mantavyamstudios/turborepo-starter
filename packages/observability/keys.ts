@@ -1,4 +1,4 @@
-// TODO(setup): Set BetterStack and Sentry values. SETUP.md → "BetterStack" / "Sentry".
+// TODO(setup): Set BetterStack and Sentry values. README.md → "BetterStack" / "Sentry".
 import { createEnv } from "@t3-oss/env-nextjs";
 import { z } from "zod";
 

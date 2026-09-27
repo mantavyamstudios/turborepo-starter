@@ -1,4 +1,4 @@
-// TODO(setup): Set STRIPE_SECRET_KEY and STRIPE_WEBHOOK_SECRET (apps/api). SETUP.md → "Stripe".
+// TODO(setup): Set STRIPE_SECRET_KEY and STRIPE_WEBHOOK_SECRET (apps/api). README.md → "Stripe".
 import { createEnv } from "@t3-oss/env-nextjs";
 import { z } from "zod";
 

@@ -1,4 +1,4 @@
-// TODO(setup): Set NEXT_PUBLIC_POSTHOG_KEY/HOST and NEXT_PUBLIC_GA_MEASUREMENT_ID. SETUP.md → "PostHog" / "Google Analytics".
+// TODO(setup): Set NEXT_PUBLIC_POSTHOG_KEY/HOST and NEXT_PUBLIC_GA_MEASUREMENT_ID. README.md → "PostHog" / "Google Analytics".
 import { createEnv } from "@t3-oss/env-nextjs";
 import { z } from "zod";
 

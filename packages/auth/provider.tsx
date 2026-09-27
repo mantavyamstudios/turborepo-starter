@@ -51,7 +51,7 @@ export const AuthProvider = ({
 
   // TODO(setup): Without Clerk keys, keyless mode wraps the app in an extra
   // client component, causing Radix hydration warnings. Set Clerk keys to fix.
-  // SETUP.md → "Clerk".
+  // README.md → "Clerk".
   return (
     <ClerkProvider
       {...properties}

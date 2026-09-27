@@ -1,4 +1,4 @@
-// TODO(setup): Set RESEND_TOKEN (re_...) and RESEND_FROM (verified sender). SETUP.md → "Resend".
+// TODO(setup): Set RESEND_TOKEN (re_...) and RESEND_FROM (verified sender). README.md → "Resend".
 import { createEnv } from "@t3-oss/env-nextjs";
 import { z } from "zod";
 
