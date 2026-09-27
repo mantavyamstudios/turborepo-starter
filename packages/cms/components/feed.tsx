@@ -1,1 +1,14 @@
-export { Pump as Feed } from "basehub/react-pump";
+import { Pump } from "basehub/react-pump";
+import type { ComponentProps } from "react";
+import { keys } from "../keys";
+
+// Pump throws without a token. Show a notice instead of calling the render
+// function (which assumes real BaseHub data) until BASEHUB_TOKEN is set.
+export const Feed = (props: ComponentProps<typeof Pump>) =>
+  keys().BASEHUB_TOKEN ? (
+    <Pump {...props} />
+  ) : (
+    <p className="text-muted-foreground text-sm">
+      CMS content unavailable — BASEHUB_TOKEN not configured.
+    </p>
+  );

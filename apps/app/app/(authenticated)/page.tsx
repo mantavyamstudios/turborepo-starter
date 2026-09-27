@@ -2,10 +2,10 @@ import { auth } from "@repo/auth/server";
 import { database } from "@repo/database";
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
-import { notFound } from "next/navigation";
 import { env } from "@/env";
 import { AvatarStack } from "./components/avatar-stack";
 import { Cursors } from "./components/cursors";
+import { NoOrganization } from "./components/empty-state";
 import { Header } from "./components/header";
 
 const title = "Acme Inc";
@@ -27,7 +27,7 @@ const App = async () => {
   const { orgId } = await auth();
 
   if (!orgId) {
-    notFound();
+    return <NoOrganization />;
   }
 
   return (
