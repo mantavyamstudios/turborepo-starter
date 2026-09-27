@@ -1,0 +1,7 @@
+# Local Postgres uses @prisma/adapter-pg (see packages/database/index.ts).
+# Next externalizes `pg`, so its transitive deps must resolve from each app's
+# root; hoist only that family. Keep the isolated linker: hoisting everything
+# lets the `storybook` workspace shadow the real `storybook` package.
+[install]
+linker = "isolated"
+publicHoistPattern = ["pg", "pg-*", "pgpass", "postgres-*", "split2", "xtend"]
