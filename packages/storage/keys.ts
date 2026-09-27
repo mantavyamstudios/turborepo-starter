@@ -1,3 +1,4 @@
+// TODO(setup): Set BLOB_READ_WRITE_TOKEN (missing from .env.example). SETUP.md → "Vercel Blob".
 import { createEnv } from "@t3-oss/env-nextjs";
 import { z } from "zod";
 

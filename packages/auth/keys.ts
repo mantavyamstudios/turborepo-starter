@@ -1,3 +1,4 @@
+// TODO(setup): Set Clerk keys (same values in apps/app, apps/web, apps/api) to leave keyless mode. SETUP.md → "Clerk".
 import { createEnv } from "@t3-oss/env-nextjs";
 import { z } from "zod";
 

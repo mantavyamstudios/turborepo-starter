@@ -1,3 +1,4 @@
+// TODO(setup): Set OPENAI_API_KEY (sk-...) where the AI package is used. SETUP.md → "OpenAI".
 import { createEnv } from "@t3-oss/env-nextjs";
 import { z } from "zod";
 

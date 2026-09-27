@@ -1,3 +1,4 @@
+// TODO(setup): Fork the BaseHub next-forge template and set BASEHUB_TOKEN (bshb_pk_...). SETUP.md → "BaseHub".
 import { createEnv } from "@t3-oss/env-nextjs";
 import { z } from "zod";
 

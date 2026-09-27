@@ -1,3 +1,4 @@
+// TODO(setup): Point DATABASE_URL at Neon for staging/production (local Postgres for dev). SETUP.md → "Database".
 import { createEnv } from "@t3-oss/env-nextjs";
 import { z } from "zod";
 

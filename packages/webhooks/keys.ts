@@ -1,3 +1,4 @@
+// TODO(setup): Set SVIX_TOKEN (sk_... or testsk_...) in apps/app. SETUP.md → "Svix".
 import { createEnv } from "@t3-oss/env-nextjs";
 import { z } from "zod";
 

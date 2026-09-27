@@ -1,4 +1,9 @@
-# ▲ / next-forge
+> **turborepo-starter**: this is [next-forge](https://github.com/vercel/next-forge)
+> with a key-free local setup. Start with **[SETUP.md](./SETUP.md)**:
+> Path A to test it as-is, Path B to build a production SaaS on it.
+> The upstream README follows unchanged.
+
+# ▲ / turborepo-starter
 
 **Production-grade Turborepo template for Next.js apps.**
 

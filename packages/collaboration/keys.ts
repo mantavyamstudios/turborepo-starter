@@ -1,3 +1,4 @@
+// TODO(setup): Set LIVEBLOCKS_SECRET (sk_...) to enable live cursors/avatars. SETUP.md → "Liveblocks".
 import { createEnv } from "@t3-oss/env-nextjs";
 import { z } from "zod";
 

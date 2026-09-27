@@ -1,3 +1,4 @@
+// TODO(setup): Generate FLAGS_SECRET (32 random bytes, base64url). SETUP.md → "Feature flags".
 import { createEnv } from "@t3-oss/env-nextjs";
 import { z } from "zod";
 

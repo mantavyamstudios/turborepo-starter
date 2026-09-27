@@ -9,6 +9,7 @@ export const metadata = {
 };
 
 const WebhooksPage = async () => {
+  // TODO(setup): Set SVIX_TOKEN in apps/app/.env.local. SETUP.md → "Svix".
   if (!keys().SVIX_TOKEN) {
     return (
       <EmptyState title="Webhooks not configured">
